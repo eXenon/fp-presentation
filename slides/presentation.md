@@ -382,6 +382,7 @@ public class ShapeFactory {
          return new Circle();
       } else if(shapeType == "RECTANGLE"){
          return new Rectangle();
+      }
       return null;
    }
 }
@@ -402,6 +403,7 @@ public class ShapeFactory {
          return new Circle();
       } else if(shapeType == "RECTANGLE"){
          return new Rectangle();
+      }
       return null;
    }
 }
@@ -710,6 +712,15 @@ NGINX & Ruby on Rails on the BEAM<br>
 
 ---
 
+<h2>Conclusion</h2>
+
+Functional programing helps thinking about problems.
+But it is rarely sufficient and is best used in combination with imperative.<br>
+<br>
+A functional core, with an imperative shell.
+
+---
+
 <h4 class="title">Questions ?</h4>
 
 ---
@@ -740,6 +751,6 @@ NGINX & Ruby on Rails on the BEAM<br>
 <br>
 <p class="hl">Talks</p>
 - FP by John Carmack<br>
-- Y Not by Jim Weirich<br>
-- Effective Programs by Rich Hiney
+- Effective Programs by Rich Hickey
+- Functional Core, Imperative Shell by DAS<br>
 </div>
