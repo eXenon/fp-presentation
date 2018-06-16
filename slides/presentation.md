@@ -462,7 +462,7 @@ TypeError: undefined is not a function.
 
 <h4>The Erlang Stack</h4>
 
-<img src="erlang_stack.png" height=500px></img>
+<img src="./img/erlang_stack.png" height=500px></img>
 
 
 <span class="didyouknow"><i class='fas fa-info-circle'></i>BEAM = Bogdan/Björn's Erlang Abstract Machine</span>
@@ -508,7 +508,7 @@ This "standard library" is built around the core ideas of <b>concurrency, fault 
 
 Normal functional programs :
 
-<img src="functional_model.png" height=500px></img>
+<img src="./img/functional_model.png" height=500px></img>
 
 ---
 
@@ -516,7 +516,7 @@ Normal functional programs :
 
 Erlang :
 
-<img src="erlang_mode.png" height=500px></img>
+<img src="./img/erlang_mode.png" height=500px></img>
 
 ---
 
@@ -524,7 +524,7 @@ Erlang :
 
 Actors have lifcecycles
 
-<img src="actor_lifecycle.png" height=500px></img>
+<img src="./img/actor_lifecycle.png" height=500px></img>
 
 ---
 
@@ -532,7 +532,7 @@ Actors have lifcecycles
 
 Actors have supervisors
 
-<img src="supervisor.png" height=500px></img>
+<img src="./img/supervisor.png" height=500px></img>
 
 ---
 
@@ -540,7 +540,7 @@ Actors have supervisors
 
 Supervisors have supervisors
 
-<img src="supervisor2.png" height=500px></img>
+<img src="./img/supervisor2.png" height=500px></img>
 
 ---
 
@@ -684,6 +684,13 @@ pid = spawn fn -> Actor.listen end
 send pid, "hello"
 send pid, "bye"
 ```
+
+---
+
+Thinking in processes :<br>
+- A web session is a process
+- A shopping cart is a process
+- Every element in a game is a process
 
 ---
 
