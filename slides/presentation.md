@@ -437,7 +437,22 @@ TypeError: undefined is not a function.
 - 90% of internet traffic goes through Erlang (Cisco)<br>
 - Naughty Dog made Lisp dialect (GOAL) (can be found in The Last Of Us)<br>
 - WhatsApp is Erlang, Discord is Elixir<br>
+
 </small>
+
+<p class="left half" style="font-size:0.5em">
+<span class="hl">TIOBE</span><br>
+- Scala #23<br>
+- Lisp #27<br>
+- Clojure #33<br>
+- Erlang #38
+</p>
+
+<p class="right half" style="font-size:0.5em">
+<span class="hl">StackOverflow</span><br>
+- TypeScript 17.4%<br>
+- Scala 4.4%
+</p>
 
 ---
 
@@ -566,7 +581,8 @@ Elixir is just a new syntax over Erlang.<br>
 
 ---
 
-https://wandbox.org/
+https://wandbox.org/  
+https://github.com/eXenon/fp-presentation
 
 ---
 
