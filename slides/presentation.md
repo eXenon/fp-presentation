@@ -727,7 +727,7 @@ A functional core, with an imperative shell.
 
 <h6 class="title">Further material</h6>
 
-<div class="left t">
+<div class="left half t">
 <p class="hl">Books</p>
 - Programming Elixir<br>
 - Hands on Haskell<br>
@@ -741,7 +741,7 @@ A functional core, with an imperative shell.
 - Elm/Phoenix by Pragmatic Studio
 </div>
 
-<div class="right t">
+<div class="right half t">
 <p class="hl">Podcasts</p>
 - Lambda Cast<br>
 - Elm Town<br>
@@ -751,6 +751,6 @@ A functional core, with an imperative shell.
 <br>
 <p class="hl">Talks</p>
 - FP by John Carmack<br>
-- Effective Programs by Rich Hickey
+- Effective Programs by Rich Hickey<br>
 - Functional Core, Imperative Shell by DAS<br>
 </div>
